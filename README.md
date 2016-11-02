@@ -10,6 +10,8 @@ Leaf is my personal attempt at a light weight PHP  toolkit for rapid prototyping
 ```
    git clone https://github.com/bretuobay/leaf.git
 
+   composer install
+
 ```
 
 ## Technologies
@@ -18,6 +20,7 @@ PHP 5.6 +
 mysql
 jquery
 composer
+bootstrap
 PHPUnit
 ```
 
