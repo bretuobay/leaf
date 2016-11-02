@@ -1,0 +1,12 @@
+<phpunit bootstrap="autoload.php">
+    <testsuites>
+        <testsuite name="Core">
+            <file>tests/core/ModelTest.php</file>
+            <file>tests/core/ControllerTest.php</file>
+            <file>tests/core/ViewTest.php</file>
+        </testsuite>
+        <testsuite name="Demo">
+            <file>tests/project/*.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>

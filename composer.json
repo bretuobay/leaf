@@ -1,0 +1,18 @@
+{
+    "name": "bretuobay/leaf",
+    "authors": [
+        {
+            "name": "bretuobay",
+            "email": "bretuobay@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bretuobay\\App\\":"app/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    }
+}
