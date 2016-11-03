@@ -15,15 +15,22 @@ class TestController extends Bretuobay\App\Controller{
 
     }
 
+    public function view()
+    {
+
+      $this->view->appendJs('test.js','test');
+      $this->view->appendCss('bootstrap.min.css','test');
+      $this->view->appendCss('custom.css','test');
+
+    }
+
 
     public function testData()
     {
 
-
-      $data =  $this->model->testFunction();
-
-
-      $this->view->loadView('test',$data);
+      $this->view->data =  $this->model->testFunction();
+      $this->view();
+      $this->view->loadView('test',$this->view->data);
 
     }
 

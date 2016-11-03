@@ -8,7 +8,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Bretuobay\\App\\":"app/"
+            "Bretuobay\\App\\":"core/"
         }
     },
     "require": {},

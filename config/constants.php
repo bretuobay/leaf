@@ -23,6 +23,12 @@ define('MODELS','models');
 
 define('VIEWS','views');
 
+define('ASSETS','assets');
+
 define('HELPERS','helpers');
 
 define('DS',DIRECTORY_SEPARATOR);
+
+define('ADS','/');
+
+define('APPEND_CACHE_BREAKER',true);

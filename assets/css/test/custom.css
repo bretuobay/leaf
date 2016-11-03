@@ -1,0 +1,18 @@
+
+.navbar-brand img {
+    height: 35px;
+    width : 40px;
+}
+
+#login, #register,#logout{
+    display:none;
+}
+
+#front-pic{
+    height: 700px;
+    width: 700px;
+}
+
+#dashboard,#manage,#setting{
+    display: none;
+}

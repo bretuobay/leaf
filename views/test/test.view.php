@@ -1,3 +1,4 @@
+
 <h1> This is my view folder </h1>
 
 <?php
