@@ -11,6 +11,8 @@ define('HOST','localhost');
 
 define('PORT','');
 
+define('STEPUP','..');
+
 define('ENVIRONMENT','development');
 
 define('APP','app');

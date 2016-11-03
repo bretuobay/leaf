@@ -22,9 +22,11 @@ class ModelTest extends TestCase{
         $stack = [];
         $this->assertEmpty($stack);
 
+        $this->assertInstanceOf(stdClass, $this->testmod);
+
         return $stack;
     }
 
 
 
-} 
+}
